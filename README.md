@@ -1,8 +1,10 @@
 Command to install necessary packages:
+
 ```npm install```
 ---
 
 Command to clone repo:
+
 ```git clone https://github.com/hwaengfan/CS220.git```
 ---
 
