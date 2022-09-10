@@ -8,7 +8,8 @@ Command to clone repo:
 ```git clone https://github.com/hwaengfan/CS220.git```
 ---
 
-Tutorial to do a PR, remember to squash (rebase) from local repo before pushing: https://www.youtube.com/watch?v=Hi2mRlmasCU
+Tutorial to do a PR, remember to squash (rebase) from local repo before pushing:
+https://www.youtube.com/watch?v=Hi2mRlmasCU
 ---
 
 Guides:
