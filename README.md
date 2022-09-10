@@ -9,6 +9,7 @@ Command to clone repo:
 ---
 
 Tutorial to do a PR, remember to squash (rebase) from local repo before pushing:
+
 https://www.youtube.com/watch?v=Hi2mRlmasCU
 ---
 
