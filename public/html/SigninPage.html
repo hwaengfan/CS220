@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
     <link rel="stylesheet" href="../css/NavBar.css" />
     <link rel="stylesheet" href="../css/MainPage.css" />
-    <link rel="stylesheet" href="../css/Login.css" />
+    <link rel="stylesheet" href="../css/Signin.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
@@ -36,6 +36,30 @@
     </section>
 
     <!-- signin form -->
+    <div class="content">
+        <header>Signin</header>
+        <form action="#">
+            <div class="field">
+                <span class="fa fa-user"></span>
+                <input type="text" required placeholder="Email or Phone">
+            </div>
+            <div class="field space">
+                <span class="fa fa-lock"></span>
+                <input type="text" required placeholder="Password">
+            </div>
+            <div class="field space">
+                <span class="fa fa-lock"></span>
+                <input type="text" required placeholder="Confirm Password">
+            </div>
+            <div class="field space">
+                <input type="submit" value="LOGIN">
+            </div>
+        </form>
+        <div class="login space">
+            Have an account?
+            <a href="/login">Login now</a>
+        </div>
+    </div>
 </body>
 
 </html>

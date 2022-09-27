@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/MainPage.html'));
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
 app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/LoginPage.html'));
 });

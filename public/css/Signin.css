@@ -56,42 +56,6 @@
     font-family: var(--font);
 }
 
-.show
-{
-    position: absolute;
-    right: 13px;
-    font-size: 13px;
-    font-weight: 700;
-    color: #222;
-    display: none;
-    cursor: pointer;
-    font-family: var(--font);
-}
-
-.pass-key:valid~.show
-{
-    display: block;
-}
-
-.forgot-pass
-{
-    text-align: left;
-    margin: 10px 0;
-}
-
-.forgot-pass a
-{
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-family: var(--font);
-    cursor: pointer;
-}
-
-.forgot-pass:hover a
-{
-    text-decoration: underline;
-}
-
 .field input[type="submit"]
 {
     background: var(--primary-color);
@@ -109,83 +73,20 @@
     background: none;
 }
 
-.or-login
-{
-    color: var(--secondary-color);
-    margin: 20px 0;
-    font-family: var(--font);
-}
-
-.social
-{
-    display: flex;
-    cursor: pointer;
-    color: var(--secondary-color);
-    margin: 0 0 20px 0;
-}
-
-.social i
-{
-    font-size: 17px;
-}
-
-i span
-{
-    margin-left: 8px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-family: var(--font);
-}
-
-.facebook,
-.instagram
-{
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    margin-left: 10px;
-}
-
-.facebook
-{
-    margin-left: 0;
-    background: #4267B2;
-    border: 1px solid #3e61a8;
-}
-
-.instagram
-{
-    background: #E1306C;
-    border: 1px solid #df2060;
-}
-
-.facebook:hover
-{
-    color: #3e61a8;
-    background: none;
-}
-
-.instagram:hover
-{
-    color: #df2060;
-    background: none;
-}
-
-.signup
+.login
 {
     font-size: 15px;
     color: var(--secondary-color);
     font-family: var(--font);
 }
 
-.signup a
+.login a
 {
     color: var(--primary-color);
     text-decoration: none;
 }
 
-.signup a:hover
+.login a:hover
 {
     text-decoration: underline;
 }
