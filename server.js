@@ -29,7 +29,6 @@ app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/html/AboutUs.html'));
 });
 
-
 // Post requests
 app.post('/login-validation', (req, res) => {
     loginValidation(req, res);
